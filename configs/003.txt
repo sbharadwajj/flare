@@ -1,0 +1,32 @@
+run_name = subject_003
+
+input_dir = data/bala/bala
+train_dir = ["train"]
+eval_dir = ["test"]
+working_dir = 
+output_dir = out/
+
+batch_size = 4
+sample_idx_ratio = 1
+
+iterations = 1500
+upsample_iterations = [500]
+
+lr_deformer = 1e-3
+lr_shader = 1e-3
+lr_vertices = 1e-3
+
+weight_shading = 1.0
+weight_perceptual_loss = 0.1
+weight_mask = 2.0
+weight_albedo_regularization = 0.01
+weight_white_lgt_regularization = 0.01
+weight_roughness_regularization = 0.01
+weight_fresnel_coeff = 0.01
+weight_normal = 0.1
+weight_laplacian = 60.0
+
+light_mlp_ch = 3
+light_mlp_dims = [64, 64]
+material_mlp_dims = [128, 128, 128, 128]
+material_mlp_ch = 5
