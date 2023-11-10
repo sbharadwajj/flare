@@ -6,8 +6,11 @@
     </a>
     <a href='https://flare.is.tue.mpg.de/' style='padding-left: 0.5rem;'>
     <img src='https://img.shields.io/badge/Project-Page-blue?style=flat&logo=Google%20chrome&logoColor=blue' alt='Project Page'>
-      <a href='https://arxiv.org/pdf/2310.17519v2.pdf'>
-    <img src='https://img.shields.io/badge/Arxiv-Paper-red' alt='arxiv PDF'>
+    <a href='https://arxiv.org/pdf/2310.17519v2.pdf'>
+    <img src='https://img.shields.io/badge/Arxiv-red' alt='arxiv PDF'>
+    </a>
+    <a href='https://www.youtube.com/watch?v=qc-eAmHoLKA&t=1s'>
+    <img src='https://img.shields.io/badge/Video-blue' alt='arxiv PDF'>
     </a>
   </h1>
   <p align="center">
