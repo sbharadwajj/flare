@@ -1,7 +1,7 @@
 <p align="center">
 
   <h1 align="center">FLARE: Fast Learning of Animatable and Relightable Mesh Avatars
-    <a href='https://drive.google.com/file/d/122xvzW7cGoInDZCzkmN1NkxESV4wVw1h/view?usp=sharing'>
+    <a href='https://dl.acm.org/doi/10.1145/3618401'>
     <img src='https://img.shields.io/badge/Paper-(55 MB)-red' alt='PDF'>
     </a>
     <a href='https://flare.is.tue.mpg.de/' style='padding-left: 0.5rem;'>
@@ -37,15 +37,22 @@ If you find our code or paper useful, please cite as:
 
 ```
 @article{bharadwaj2023flare,
-  title = {{FLARE}: Fast learning of Animatable and Relightable Mesh Avatars},
-  author = {Bharadwaj, Shrisha and Zheng, Yufeng and Hilliges, Otmar and Black, Michael J. and Abrevaya, Victoria Fernandez},
-  journal = {ACM Transactions on Graphics},
-  volume = {42},
-  pages = {15},
-  month = dec,
-  year = {2023},
-  doi = {https://doi.org/10.1145/3618401},
-  month_numeric = {12}
+author = {Bharadwaj, Shrisha and Zheng, Yufeng and Hilliges, Otmar and Black, Michael J. and Abrevaya, Victoria Fernandez},
+title = {FLARE: Fast Learning of Animatable and Relightable Mesh Avatars},
+year = {2023},
+issue_date = {December 2023},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {42},
+number = {6},
+issn = {0730-0301},
+url = {https://doi.org/10.1145/3618401},
+doi = {10.1145/3618401},
+journal = {ACM Trans. Graph.},
+month = {dec},
+articleno = {204},
+numpages = {15},
+keywords = {neural rendering, neural head avatars, relighting, 3D reconstruction}
 }
 ```
 

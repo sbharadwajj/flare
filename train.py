@@ -423,7 +423,7 @@ if __name__ == '__main__':
             break  # Exit the loop if main() runs successfully
         except:
             print("--"*50)
-            print("Re-initializing main() because the training of light MLP diverged and all the values are zero.")
+            print("Warning: Re-initializing main() because the training of light MLP diverged and all the values are zero. If the training does not restart, please end it and restart. ")
             print("--"*50)
 
     ### ============== defaults: fine tune color ==============================
@@ -435,5 +435,5 @@ if __name__ == '__main__':
             break  # Exit the loop if main() runs successfully
         except:
             print("--"*50)
-            print("Re-initializing main() because the training of light MLP diverged and all the values are zero.")
+            print("Warning: Re-initializing main() because the training of light MLP diverged and all the values are zero. If the training does not restart, please end it and restart. ")
             print("--"*50)
