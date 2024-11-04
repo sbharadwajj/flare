@@ -32,6 +32,10 @@
   <img src="assets/teaser_flare.gif" width="98%" />
 </p>
 
+## Latest Updates
+
+- Nov 2024: todo ()
+
 ## Citation
 If you find our code or paper useful, please cite as:
 
