@@ -1,8 +1,8 @@
-run_name = 001
+run_name = 004
 
-input_dir = DATA/001
-train_dir = ["MVI_1814", "MVI_1810"]
-eval_dir = ["MVI_1812"]
+input_dir = DATA/004
+train_dir = ["IMG_2655"]
+eval_dir = ["IMG_2656"]
 working_dir = 
 output_dir = out
 

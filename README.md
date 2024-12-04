@@ -32,9 +32,21 @@
   <img src="assets/teaser_flare.gif" width="98%" />
 </p>
 
-## Latest Updates
+## !! UPDATE !!
 
-- Nov 2024: todo ()
+Release:
+- **DATA RELEASE**: [HERE](https://flare.is.tue.mpg.de/download.php). 9 subjects that are preprocessed where 5 are NEW. 
+- **MODELS**: [HERE](https://flare.is.tue.mpg.de/download.php) Model weights along with qualitative and quanitative results for all 9 subjects. 
+
+Please read the licenses carefully. They are released only for academic purpose.
+
+Issues:
+
+- For some users and specific GPUs the model never converges. Please use this [fix](https://github.com/KelianB/SPARK/blob/b6458364a71b16c8996f2770c4f59748892c941e/MultiFLARE/flare/modules/neuralshader.py#L125) where SoftPlus activation is used for the light MLP. 
+- Minor bug fix in `test.py` ([details](https://github.com/sbharadwajj/flare/issues/10)). However, I am not changing the mask code which only some users have an issue with and I suspect its because of dependencies. [details](https://github.com/sbharadwajj/flare/issues/5#issuecomment-1895298516) 
+
+
+PS: Check out [SPARK](https://kelianb.github.io/SPARK/) accepted at SIGGRAPH Asia'24. 
 
 ## Citation
 If you find our code or paper useful, please cite as:
@@ -96,6 +108,7 @@ keywords = {neural rendering, neural head avatars, relighting, 3D reconstruction
   pip install --global-option="--no-networks" git+https://github.com/NVlabs/tiny-cuda-nn#subdirectory=bindings/torch
   imageio_download_bin freeimage
   pip install gpytoolbox opencv-python trimesh matplotlib chumpy lpips tqdm
+  pip install git+https://github.com/jonbarron/robust_loss_pytorch
   ```
 
   </details>

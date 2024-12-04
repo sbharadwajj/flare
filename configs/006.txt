@@ -1,8 +1,8 @@
-run_name = 001
+run_name = 006
 
-input_dir = DATA/001
-train_dir = ["MVI_1814", "MVI_1810"]
-eval_dir = ["MVI_1812"]
+input_dir = DATA/006
+train_dir = ["090823_FLARE_Video1_00205_TM", "090823_FLARE_Video2_00205_TM"]
+eval_dir = ["090823_FLARE_Video3_00205_TM"]
 working_dir = 
 output_dir = out
 

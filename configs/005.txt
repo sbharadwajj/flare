@@ -1,10 +1,10 @@
-run_name = 001
+run_name = 005
 
-input_dir = DATA/001
-train_dir = ["MVI_1814", "MVI_1810"]
-eval_dir = ["MVI_1812"]
+input_dir = DATA/005
+train_dir = ["IMG_2640"]
+eval_dir = ["IMG_2641"]
 working_dir = 
-output_dir = out
+output_dir = out/
 
 batch_size = 4
 sample_idx_ratio = 1

@@ -110,7 +110,8 @@ class DatasetLoader(Dataset):
                     # keep track of the subfolder
                     item.update({"dir":dir})
                 json_dict["frames"].extend(json_data["frames"])    
-        for i in range(len(json_dict)):    
+
+        for i in range(len(json_dict["frames"])):    
             flame_expression = torch.tensor(json_dict["frames"][i]["expression"], dtype=torch.float32)
             all_expression.append(flame_expression[None, ...])
         return torch.mean(torch.concat(all_expression), 0, keepdim=True)

@@ -1,8 +1,8 @@
-run_name = 001
+run_name = 008
 
-input_dir = DATA/001
-train_dir = ["MVI_1814", "MVI_1810"]
-eval_dir = ["MVI_1812"]
+input_dir = DATA/008
+train_dir = ["train", "train1"]
+eval_dir = ["test"]
 working_dir = 
 output_dir = out
 

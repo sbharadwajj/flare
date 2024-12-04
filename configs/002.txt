@@ -1,10 +1,10 @@
-run_name = subject_002
+run_name = 002
 
-input_dir = data/marcel/marcel
+input_dir = DATA/002
 train_dir = ["MVI_1797", "MVI_1801"]
 eval_dir = ["MVI_1802"]
 working_dir = 
-output_dir = out/
+output_dir = out
 
 batch_size = 4
 sample_idx_ratio = 1
