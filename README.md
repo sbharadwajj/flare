@@ -42,7 +42,7 @@ Please read the licenses carefully. They are released only for academic purpose.
 
 Issues:
 
-- For some users and specific GPUs the model never converges. Please use this [fix](https://github.com/KelianB/SPARK/blob/b6458364a71b16c8996f2770c4f59748892c941e/MultiFLARE/flare/modules/neuralshader.py#L125) where SoftPlus activation is used for the light MLP. 
+- For some users and specific GPUs the convergence takes time. Please use this [fix](https://github.com/KelianB/SPARK/blob/b6458364a71b16c8996f2770c4f59748892c941e/MultiFLARE/flare/modules/neuralshader.py#L125) where SoftPlus activation is used for the light MLP. 
 - Minor bug fix in `test.py` ([details](https://github.com/sbharadwajj/flare/issues/10)). However, I am not changing the mask code which only some users have an issue with and I suspect its because of dependencies. [details](https://github.com/sbharadwajj/flare/issues/5#issuecomment-1895298516) 
 
 
